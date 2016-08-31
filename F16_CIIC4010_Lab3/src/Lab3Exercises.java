@@ -7,5 +7,8 @@ public class Lab3Exercises {
 		nuribeth.setLocation(400, 250);
 		nuribeth.setSize(200, 200);
 		nuribeth.setVisible(true);
+		
+	     MyPanelClass myPanel = new MyPanelClass();
+         nuribeth.getContentPane().add(myPanel);
 	}
 }
